@@ -1,4 +1,4 @@
-import type { RouteObject } from 'react-router-dom';
+import type { RouteObject } from 'react-router';
 import { UsersList } from '../features/users/UsersList';
 import { UserDetails } from '../features/users/UserDetails';
 

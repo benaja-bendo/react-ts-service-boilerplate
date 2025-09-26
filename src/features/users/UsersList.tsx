@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { useUsers } from '../../hooks/queries/useUsers';
 
 export const UsersList = (): JSX.Element => {

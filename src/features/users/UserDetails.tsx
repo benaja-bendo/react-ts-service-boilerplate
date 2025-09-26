@@ -1,5 +1,6 @@
 import { useParams } from 'react-router';
 import { useUser } from '../../hooks/queries/useUser';
+import type { JSX } from 'react';
 
 export const UserDetails = (): JSX.Element => {
   const params = useParams();

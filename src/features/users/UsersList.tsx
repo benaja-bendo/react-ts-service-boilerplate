@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import { useUsers } from '../../hooks/queries/useUsers';
+import type { JSX } from 'react';
 
 export const UsersList = (): JSX.Element => {
   const { data, isLoading, error } = useUsers();
